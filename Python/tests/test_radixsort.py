@@ -15,7 +15,7 @@ class TestRadixSort:
         assert radixsort.get_digit(1, 1) == 0
 
     def test_get_digit_second_digit(self):
-        assert radixsort.get_digit(37, 1) == 4
+        assert radixsort.get_digit(37, 1) == 3
 
     def test_get_digit_third_digit(self):
         assert radixsort.get_digit(357, 2) == 3
