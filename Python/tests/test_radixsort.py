@@ -34,7 +34,7 @@ class TestRadixSort:
 
     def test_sort_raise_valueerror(self):
         with pytest.raises(ValueError):
-            radixsort.sort([1, 1.5, 2])
+            radixsort.sort([1, -1, 2])
 
     def test_sort_ten_random_items(self):
         random.seed(100)
