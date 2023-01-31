@@ -69,5 +69,3 @@ def get_number_of_digits(n: int) -> int:
         count += 1
 
     return count
-
-sort([3,1])
